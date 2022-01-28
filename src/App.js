@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Banner />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/RVTE_Meeting" element={<Home />} />
           <Route path={'/call_for_paper'} element={<CallForPaper />} />
           <Route path={'/process'} element={<Process />} />
           <Route path={'/committee'} element={<Committee />} />

@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const category = [
     {
         name:'主页',
-        url:''
+        url:'RVTE_Meeting'
     },
     {
         name:'征稿',
@@ -31,7 +31,7 @@ const Banner = () => {
     return(
         <div>
             <Menu id={'banner'} mode="horizontal" defaultSelectedKeys={['主页']} style={{paddingLeft:'5%'}}>
-                <Menu.Item onClick={() => {navigate('/')}}>
+                <Menu.Item onClick={() => {navigate('/RVTE_Meeting')}}>
                     <div style={{"fontSize":'large',"color":'#273372' }}>
                         RISC-V技术及生态研讨会 <span style={{fontStyle:'italic', fontSize:'small',"color":'#f5b21b' }}>RVTE</span>
                     </div>
