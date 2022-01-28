@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+import Banner from "./components/banner/Banner";
+import Home from "./components/home/Home";
+import Process from "./components/process/Process";
+import Committee from "./components/committee/Committee";
+import Places from "./components/places/Places";
+import CallForPaper from "./components/callForPaper/CallForPaper";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Banner />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path={'/call_for_paper'} element={<CallForPaper />} />
+          <Route path={'/process'} element={<Process />} />
+          <Route path={'/committee'} element={<Committee />} />
+          <Route path={'/places'} element={<Places />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
