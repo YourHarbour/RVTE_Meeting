@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/RVTE_Meeting/static/css/main.f2fef06c.chunk.css",
+    "main.js": "/RVTE_Meeting/static/js/main.aa906ee0.chunk.js",
+    "main.js.map": "/RVTE_Meeting/static/js/main.aa906ee0.chunk.js.map",
+    "runtime-main.js": "/RVTE_Meeting/static/js/runtime-main.a1590524.js",
+    "runtime-main.js.map": "/RVTE_Meeting/static/js/runtime-main.a1590524.js.map",
+    "static/css/2.9ebce5d5.chunk.css": "/RVTE_Meeting/static/css/2.9ebce5d5.chunk.css",
+    "static/js/2.c3f8d327.chunk.js": "/RVTE_Meeting/static/js/2.c3f8d327.chunk.js",
+    "static/js/2.c3f8d327.chunk.js.map": "/RVTE_Meeting/static/js/2.c3f8d327.chunk.js.map",
+    "static/js/3.57dee561.chunk.js": "/RVTE_Meeting/static/js/3.57dee561.chunk.js",
+    "static/js/3.57dee561.chunk.js.map": "/RVTE_Meeting/static/js/3.57dee561.chunk.js.map",
+    "index.html": "/RVTE_Meeting/index.html",
+    "static/css/2.9ebce5d5.chunk.css.map": "/RVTE_Meeting/static/css/2.9ebce5d5.chunk.css.map",
+    "static/css/main.f2fef06c.chunk.css.map": "/RVTE_Meeting/static/css/main.f2fef06c.chunk.css.map",
+    "static/js/2.c3f8d327.chunk.js.LICENSE.txt": "/RVTE_Meeting/static/js/2.c3f8d327.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1590524.js",
+    "static/css/2.9ebce5d5.chunk.css",
+    "static/js/2.c3f8d327.chunk.js",
+    "static/css/main.f2fef06c.chunk.css",
+    "static/js/main.aa906ee0.chunk.js"
+  ]
+}
